@@ -1,0 +1,1 @@
+/var/www/html/desktop/bionic *(ro,sync,no_wdelay,insecure_locks,no_root_squash,no_subtree_check)
