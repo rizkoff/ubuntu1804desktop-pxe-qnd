@@ -1,0 +1,7 @@
+default vesamenu.c32
+
+label install1
+menu label ^Install Ubuntu 1804LTS Desktop
+menu default
+kernel casper/vmlinuz
+append initrd=casper/initrd boot=casper netboot=nfs nfsroot=192.168.1.150:/var/www/html/desktop/bionic splash toram ---
